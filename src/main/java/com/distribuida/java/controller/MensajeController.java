@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MensajeController {
-    @GetMapping("/message")
+    @GetMapping("/mensaje")
     public String Mensaje() {
-        return "Hello, my name is Christian Cueva and this is my API to send the message. ";
+        return "Hello, my name is Christian Cueva and this is my API to send the message c: ";
     }
 }
